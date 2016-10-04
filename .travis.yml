@@ -13,6 +13,6 @@ before_install:
     
 script:
     - docker run ansible_${distro} ansible --version
-    - docker run ansible_${distro} ifconfg || docker run ansible_${distro} ip addr
+    - docker run ansible_${distro} ifconfig || docker run ansible_${distro} ip addr
     - docker run ansible_${distro} ping -c 4 localhost
     
