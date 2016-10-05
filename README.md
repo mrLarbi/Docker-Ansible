@@ -28,7 +28,7 @@ Pull an image :
     docker pull mrlarbi/ansible:ubuntu14.04 
     docker pull mrlarbi/ansible:ubuntu16.04 
 
-And the run it :
+And then run it :
     
     docker run mrlarbi/ansible:centos6 
     docker run mrlarbi/ansible:centos7 
