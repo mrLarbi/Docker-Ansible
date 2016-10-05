@@ -20,23 +20,23 @@ These images were made for testing purposes.
     
 Pull an image : 
 
-``` docker pull mrlarbi/ansible:centos6 ```
-``` docker pull mrlarbi/ansible:centos7 ```
-``` docker pull mrlarbi/ansible:debian7 ```
-``` docker pull mrlarbi/ansible:debian8 ```
-``` docker pull mrlarbi/ansible:ubuntu12.04 ```
-``` docker pull mrlarbi/ansible:ubuntu14.04 ```
-``` docker pull mrlarbi/ansible:ubuntu16.04 ```
+    docker pull mrlarbi/ansible:centos6
+    docker pull mrlarbi/ansible:centos7
+    docker pull mrlarbi/ansible:debian7 
+    docker pull mrlarbi/ansible:debian8 
+    docker pull mrlarbi/ansible:ubuntu12.04 
+    docker pull mrlarbi/ansible:ubuntu14.04 
+    docker pull mrlarbi/ansible:ubuntu16.04 
 
 And the run it :
     
-``` docker run mrlarbi/ansible:centos6 ```
-``` docker run mrlarbi/ansible:centos7 ```
-``` docker run mrlarbi/ansible:debian7 ```
-``` docker run mrlarbi/ansible:debian8 ```
-``` docker run mrlarbi/ansible:ubuntu12.04 ```
-``` docker run mrlarbi/ansible:ubuntu14.04 ```
-``` docker run mrlarbi/ansible:ubuntu16.04 ```
+    docker run mrlarbi/ansible:centos6 
+    docker run mrlarbi/ansible:centos7 
+    docker run mrlarbi/ansible:debian7 
+    docker run mrlarbi/ansible:debian8 
+    docker run mrlarbi/ansible:ubuntu12.04 
+    docker run mrlarbi/ansible:ubuntu14.04 
+    docker run mrlarbi/ansible:ubuntu16.04 
 
 Which should display the Ansible version.
 
