@@ -1,7 +1,8 @@
 FROM debian:jessie
 
 # Install dependencies
-RUN apt-get update && \
+RUN apt-get clean && \
+    apt-get update && \
     apt-get upgrade -y && \
     apt-get install build-essential libffi-dev libssl-dev python-pip python-dev -y
 
