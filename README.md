@@ -1,6 +1,7 @@
 # Docker-Ansible
 
 [![Build Status](https://travis-ci.org/mrLarbi/Docker-Ansible.svg?branch=master)](https://travis-ci.org/mrLarbi/Docker-Ansible)
+[![Ansible Role](https://img.shields.io/badge/docker%20build-automated-blue.svg)](https://hub.docker.com/r/mrlarbi/ansible/)
 
 Docker images with ansible and the networking tools installed.
 
